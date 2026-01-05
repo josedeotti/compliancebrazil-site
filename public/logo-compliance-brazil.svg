@@ -1,0 +1,53 @@
+<svg width="200" height="40" viewBox="0 0 200 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Símbolo C (proporções ajustadas) -->
+  <g>
+    <!-- Arco externo superior (teal → azul) -->
+    <path d="M 8 20 A 12 12 0 0 1 20 8 L 26 11 A 10 10 0 0 0 12 20 Z" fill="url(#grad1)"/>
+    
+    <!-- Arco externo inferior (azul → teal) -->
+    <path d="M 20 32 A 12 12 0 0 1 8 20 L 12 20 A 10 10 0 0 0 26 29 Z" fill="url(#grad2)"/>
+    
+    <!-- Arco interno esquerdo (cinza) -->
+    <path d="M 12 20 A 8 8 0 0 1 20 12 L 22 14 A 6 6 0 0 0 14 20 Z" fill="url(#grad3)"/>
+    
+    <!-- Arco interno direito (cinza) -->
+    <path d="M 20 28 A 8 8 0 0 1 12 20 L 14 20 A 6 6 0 0 0 22 26 Z" fill="url(#grad4)"/>
+  </g>
+  
+  <!-- Texto "compliance" (bold, cinza escuro) -->
+  <text x="45" y="28" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#5A6C7D">
+    compliance
+  </text>
+  
+  <!-- Texto "Brazil" (light, cinza claro) -->
+  <text x="45" y="37" font-family="Arial, sans-serif" font-size="9" font-weight="300" fill="#A0AEC0">
+    Brazil
+  </text>
+  
+  <!-- Gradientes -->
+  <defs>
+    <!-- Teal → Azul (arco superior) -->
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#17B6A5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E6FAE;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Azul → Teal (arco inferior) -->
+    <linearGradient id="grad2" x1="0%" y1="100%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E6FAE;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#17B6A5;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Cinza claro → escuro (interno esquerdo) -->
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#A0AEC0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5A6C7D;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Cinza escuro → claro (interno direito) -->
+    <linearGradient id="grad4" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#5A6C7D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#A0AEC0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

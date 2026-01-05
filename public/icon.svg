@@ -1,0 +1,45 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Símbolo C da Compliance Brazil -->
+  <g transform="translate(0, 0)">
+    <!-- Arco externo superior (verde → teal → azul) -->
+    <path d="M 5 20 Q 5 8 20 5 Q 28 6 32 12 L 28 16 Q 25 11 20 10 Q 10 12 10 20 Z" fill="url(#grad1)"/>
+    
+    <!-- Arco externo inferior (azul → teal → verde) -->
+    <path d="M 20 35 Q 5 32 5 20 L 10 20 Q 10 28 20 30 Q 25 29 28 24 L 32 28 Q 28 34 20 35 Z" fill="url(#grad2)"/>
+    
+    <!-- Arco interno esquerdo (cinza claro → escuro) -->
+    <path d="M 10 20 Q 10 12 20 10 L 20 15 Q 15 16 15 20 Z" fill="url(#grad3)"/>
+    
+    <!-- Arco interno direito (cinza escuro → claro) -->
+    <path d="M 20 30 Q 10 28 10 20 L 15 20 Q 15 24 20 25 Z" fill="url(#grad4)"/>
+  </g>
+  
+  <!-- Gradientes -->
+  <defs>
+    <!-- Verde → Teal → Azul (arco superior) -->
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="30%">
+      <stop offset="0%" style="stop-color:#17B6A5;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1E9FBC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E6FAE;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Azul → Teal → Verde (arco inferior) -->
+    <linearGradient id="grad2" x1="0%" y1="100%" x2="100%" y2="70%">
+      <stop offset="0%" style="stop-color:#1E6FAE;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1E9FBC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#17B6A5;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Cinza claro → escuro (interno esquerdo) -->
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#CBD5E0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#718096;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Cinza escuro → claro (interno direito) -->
+    <linearGradient id="grad4" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#718096;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#CBD5E0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>
